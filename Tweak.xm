@@ -23,7 +23,7 @@
 - (void)handleTweakEditTapGesture:(UITapGestureRecognizer *)sender {
 	if (sender.state == UIGestureRecognizerStateRecognized) {
 		NSString *alertMessage = [NSString stringWithFormat:@"Current text:\n\n%@", self.text];
-		UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"no tories allowed lmao" message:alertMessage preferredStyle:UIAlertControllerStyleAlert];
+		UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"DiscordMessageSpoofer" message:alertMessage preferredStyle:UIAlertControllerStyleAlert];
 
 		[alert addTextFieldWithConfigurationHandler:^(UITextField *_Nonnull textField) {
 			textField.autocorrectionType = UITextAutocorrectionTypeYes;
