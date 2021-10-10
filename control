@@ -1,0 +1,9 @@
+Package: com.icraze.discordmessagespoofer
+Name: DiscordMessageSpoofer
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Spoof Discord messages
+Maintainer: iCraze
+Author: iCraze
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
